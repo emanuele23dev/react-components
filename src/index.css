@@ -28,3 +28,20 @@ header {
     gap: 20px;
   }
 }
+
+main {
+  min-height: calc(100vh - 62px);
+  .blog-title {
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+footer {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}

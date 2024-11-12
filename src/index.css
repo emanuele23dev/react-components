@@ -48,6 +48,7 @@ main {
 }
 
 .blog-card {
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   margin-top: 50px;
   background-color: white;
   border-radius: 20px;
@@ -78,6 +79,10 @@ main {
     border: 1px solid rgb(255, 98, 0);
     color: rgb(255, 98, 0);
   }
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
 }
 
 footer {

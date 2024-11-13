@@ -34,7 +34,7 @@ header {
 }
 
 main {
-  min-height: calc(100vh - 62px);
+  min-height: calc(100vh - 180px);
   .blog-title {
     text-align: center;
     margin-top: 40px;
@@ -45,44 +45,9 @@ main {
 .blog-post {
   display: flex;
   justify-content: center;
-}
-
-.blog-card {
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
-  margin-top: 50px;
-  background-color: white;
-  border-radius: 20px;
-  overflow: hidden;
-  height: 500px;
-  width: 400px;
-  img {
-    width: 400px;
-  }
-
-  h3,
-  p {
-    margin-top: 15px;
-    margin-left: 10px;
-  }
-
-  .play {
-    margin-top: 15px;
-    margin-left: 10px;
-    padding: 7px 25px;
-    background-color: rgb(255, 98, 0);
-    color: white;
-    border: 0;
-  }
-
-  .play:hover {
-    background-color: transparent;
-    border: 1px solid rgb(255, 98, 0);
-    color: rgb(255, 98, 0);
-  }
-}
-
-.blog-card:hover {
-  transform: scale(1.05);
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-bottom: 40px;
 }
 
 footer {
